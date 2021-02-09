@@ -1,3 +1,4 @@
 export default {
-  list: []
+  data: {},
+  maxBrothersPerRow: 5
 }

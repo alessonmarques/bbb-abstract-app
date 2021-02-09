@@ -1,13 +1,25 @@
 <script>
+  import Brothers from './features/brothers'
+
+  import 'bootstrap'
+  import 'bootstrap/dist/css/bootstrap.min.css'
+
   export default {
-    computed:{
+    components:{
+
+      Brothers
 
     }
   }
+
 </script>
 
 <template>
-  <div>
-    <h2>start</h2>
+
+  <div class="container-fluid pt-3">
+
+    <brothers/>
+
   </div>
+
 </template>
