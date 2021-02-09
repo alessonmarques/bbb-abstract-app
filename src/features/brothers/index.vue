@@ -30,13 +30,13 @@ export default {
 
           <div v-for="brother in brothers"
                :key="brother.id"
-               class="card bg-dark my-2 col-3"
+               class="card my-2 col-3"
                style="width: 330px; max-width: 330px; min-width: 330px;" >
 
               <div class="card-img-top">
                       <img :src="brother.photo"
                            :alt="brother.name"
-                           class="card-img-top w-100 p-1 "
+                           class="card-img-top w-100 p-1"
                            v-bind:class="{ 'eliminated' : brother.eliminated}">
               </div>
 
