@@ -53,7 +53,7 @@ export default {
 
               <div class="card-footer card_text_track">
                   <span class="card-text d-block">{{ brother.name }}</span>
-                  <!-- <span class="text-muted d-block">{{ brother.instagramData.edge_followed_by.count }} seguidores</span> -->
+
                   <span class="card-text d-block">
                     <IOdometer
                       class="iOdometer"
@@ -61,6 +61,8 @@ export default {
                     />
                     seguidores
                   </span>
+
+                  <!-- <span class="text-muted d-block">{{ brother.instagramData.edge_followed_by.count }} seguidores</span> -->
                   <!-- <small class="text-muted d-block">{{ brother.instagramData.edge_followed_by.count }} seguidores</small> -->
                   <!-- <small class="text-muted d-block">{{ brother.infos }}</small> -->
               </div>
