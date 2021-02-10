@@ -1,4 +1,3 @@
 export default {
-  data: {},
-  maxBrothersPerRow: 5
+  data: {}
 }

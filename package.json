@@ -14,9 +14,11 @@
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.6.0",
     "jquery": "^3.5.1",
+    "odometer": "^0.4.8",
     "popper.js": "^1.16.1",
     "save": "^2.4.0",
     "vue": "^2.5.11",
+    "vue-odometer": "^1.0.2",
     "vuex": "^3.6.2"
   },
   "browserslist": [
